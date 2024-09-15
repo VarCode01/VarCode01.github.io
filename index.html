@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varshini Nimmagadda</title>
+
+</head>
+<body>
+    <header id="main-header">
+        <!-- content of header goes here by clicking "command + '/'" -->
+        <h1 id="logo">Varshini N</h1>
+        <nav>
+            <!-- <nav> =this is for a navigation pane/ menu - there are two types of lists - ordered(numbered) vs unordered(symbol before element) lists - i.e., 'ol' 'ul'. li is in ul = list elements where you can add anchor <a> tags which are actual links you can click on out url in href="(here)" short cut code is nav>ul>li*3-->
+            <!-- some recs for websites - w3schools, stackoverflow and MDN web docs -->
+            <ul id="nav_ul">
+                <li><a href="" class="navbutton">Home</a></li>
+                <li><a href="" class="navbutton">About me</a></li>
+                <li><a href="" class="navbutton">Contact Info</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="main_content">
+            <aside>
+                <section>
+                    <h4>Filter by Year</h4>
+                    <nav>
+                        <ul>
+                            <li><a href=""></a>Filter for 2020-Present</li>
+                            <li><a href=""></a>Filter for 2018-2019</li>
+                            <li><a href=""></a>Filter for Past-2017</li>
+                        </ul>
+                    </nav>
+                </section>
+                <section>
+                    <h4>Filter by category</h4>
+                    <nav>
+                        <ul>
+                            <li><a href=""></a>Education</li>
+                            <li><a href=""></a>Projects</li>
+                            <li><a href=""></a>Volunteering</li>
+                            <li><a href=""></a>Work Experience</li>
+                        </ul>
+                    </nav>
+                </section>
+             </aside>
+            <div>
+                <article>
+                    <header>
+                        <!-- Article's header goes here -->
+                        <h2>Profile</h2>
+                        <h3>Read time: 2 min</h3>
+                    </header>
+                    <main>
+                        <!-- <P> is a paragraph tag. need it to format into paragraphs and different lines - creates line breaks. lorem emmet abb - if we want 100, type lorem10 -->
+                        <p>Currently hard at work writing her Master's thesis on cybersecurity.</p>
+                        <p>Bachelor's Degree: BSc Biomedical Sciences in Cell and Molecular Biology (Hons)</p>
+                        <p>Really intrested in new technological advances particularily in data analytics and cyber security area.</p>
+                        <blockquote>
+                            "Hardwork is the mother of success" - <cite>Varshini, 2024</cite>
+                        </blockquote>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, voluptatem corporis? Iusto voluptatem aut pariatur ut non tenetur architecto ab. Rem assumenda numquam perspiciatis exercitationem.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </main>
+                    <footer>
+                        <h2>Author: Varshini N</h2>
+                        <img src="https://placebear.com/100/100" alt="A profile pic of a bear">
+                        <!-- in img src = link to image which is in the same folder as code or a link. put alt for accessibility or if image does not display -->
+                        <h3>last posted: 12-08-2024</h3>
+                        <!-- in <a> we can use target to change browser behavious when you click the link.  -->
+                        <a href="https://www.linkedin.com/in/varshini-nimmagadda-539880311/" target="_blank">Author's Profile</a>
+                    </footer>
+                 </article>
+                 
+             </div>
+             
+             
+        </div>
+        <!-- main content of website can go here -->
+         
+         <hr>
+         <h2>Sign-up for my newsletter!</h2>
+         <form action="" method="">
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name" required>
+            <br>
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password">
+            <br>
+            
+            <label for="favorite_topic">Favorite Topic:</label> 
+            <input type="radio" name="favorite_topic" id="data_analytics" value="data_analytics">
+            <label for="data_analytics"> Data Analytics</label>
+            <input type="radio" name="favorite_topic" id="databases" value="databases">
+            <label for="databases"> Databases</label>
+            <input type="radio" name="favorite_topic" id="cybersecurity" value="cybersecurity">
+            <label for="cybersecurity"> Cybersecurity</label>
+            <br>
+
+            <label for="edu">Highest Education Level:</label>
+            <select name="edu" id="edu">
+                <option value="hs">High School</option>
+                <option value="ug">Undergraduate</option>
+                <option value="pg">Postgrad</option>
+                <option value="other">Other</option>
+            </select>
+
+            <br>
+            <label for="bio">Biography:</label>
+            <br>
+            <textarea name="bio" id="bio" cols="30" rows="5"></textarea>
+            <br>
+
+            <input type="checkbox" id="subscribe" name="subscribe">
+            <label for="subscribe">Subscribe to my newsletter!</label>
+            <br>
+
+            <input type="submit" value="Send!">
+            <br>
+            
+         </form>
+         <hr>
+    </main>
+    <footer>
+        <!-- footer for body goes here -->
+         <h2>Varshini's Site</h2>
+         <section>
+            <nav>
+                <ul id="footer_ul">
+                    <div>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About Me</a></li>
+                        <li><a href="">Contact Me</a></li> 
+                    </div>
+                    <div>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
+                        <li><a href="">Cookie Policy</a></li>
+                    </div>
+                </ul>
+            </nav>
+         </section>
+    </footer>
+</body>
+</html>
